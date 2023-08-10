@@ -7,7 +7,7 @@
     use App\Http\Controllers\HomeController;
     use League\CommonMark\Extension\SmartPunct\DashParser;
     use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
-    //hello
+
     Route::get('/', [HomeController::class, 'show_post']);
 
     Route::middleware(['auth'])->group(function () {
