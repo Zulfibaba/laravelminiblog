@@ -6,55 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdn.tailwindcss.com"></script>
 
     <title>Mini Blog</title>
 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: darkgray;
-        }
 
-        header {
-            background-color: #333;
-            color: #fff;
-            display: flex;
-            align-items: center;
-            padding: 15px;
-        }
-
-        .logo {
-            font-size: 24px;
-            font-weight: bold;
-            margin-right: auto;
-        }
-
-
-        .login-btn,
-        .register-btn {
-            color: #fff;
-            background-color: #007bff;
-            border: none;
-            padding: 8px 15px;
-            border-radius: 5px;
-            text-decoration: none;
-            margin-left: 10px;
-
-        }
-
-        .login-btn:hover,
-        .register-btn:hover {
-            background-color: #6d757d;
-        }
-
-        footer {
-            background-color: darkgrey;
-            text-align: center;
-            padding: 10px;
-        }
-    </style>
 </head>
 
 <body>
